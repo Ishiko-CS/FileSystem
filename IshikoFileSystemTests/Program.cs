@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Ishiko.TestFramework;
 
 namespace IshikoFileSystemTests
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestHarness theTestHarness = new TestHarness();
+
+            return theTestHarness.run();
         }
     }
 }
