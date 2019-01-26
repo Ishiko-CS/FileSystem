@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IshikoFileSystem", "IshikoFileSystem\IshikoFileSystem.csproj", "{E0DC2841-F521-4BB4-AFF9-15990773AA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IshikoFileSystem", "IshikoFileSystem\IshikoFileSystem.csproj", "{E0DC2841-F521-4BB4-AFF9-15990773AA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IshikoFileSystemTests", "IshikoFileSystemTests\IshikoFileSystemTests.csproj", "{D56F9EA4-04DF-470E-B9F1-C213719E39B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E0DC2841-F521-4BB4-AFF9-15990773AA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0DC2841-F521-4BB4-AFF9-15990773AA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0DC2841-F521-4BB4-AFF9-15990773AA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56F9EA4-04DF-470E-B9F1-C213719E39B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F9EA4-04DF-470E-B9F1-C213719E39B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F9EA4-04DF-470E-B9F1-C213719E39B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F9EA4-04DF-470E-B9F1-C213719E39B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
